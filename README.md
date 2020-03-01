@@ -1,4 +1,4 @@
-![Pirštų abėcėlė](images/pirštų%20abėcėlė.png)
+![Pirštų abėcėlė](images/antraštė.png)
 
 # Pirštų abėcėlė
 
