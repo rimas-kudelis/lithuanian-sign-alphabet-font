@@ -1,3 +1,5 @@
+![Pirštų abėcėlė](images/pirštų%20abėcėlė.png)
+
 # Pirštų abėcėlė
 
 Čia rasite kompiuterinį šriftą su lietuviška pirštų abėcėle, kurią kurtieji ir kurčnebyliai naudoja vietovardžiams ir kitiems žodžiams, neturintiems atskirų gestų.
