@@ -4,7 +4,7 @@
 
 Čia rasite kompiuterinį šriftą su lietuviška pirštų abėcėle, kurią kurtieji ir kurčnebyliai vartoja vietovardžiams ir kitiems žodžiams, neturintiems atskirų gestų.
 
-Šriftas padarytas pirštų abėcėlės paveikslo, pateikiamo [Lietuvos kurčiųjų ir neprigirdinčiųjų ugdymo centro](http://www.deafcenter.lt/pirstu-abecele/) svetainėje bei [Neįgaliųjų reikalų departamento](http://www.ndt.lt/) prie Socialinės apsaugos ir darbo ministerijos pateikiamo [Lietuvių gestų kalbos žodyno](http://gestai.ndt.lt/pirstu-abecele) svetainėje, pagrindu. Šio paveikslo kopija padėta į aplanką `images`.
+Šriftas padarytas pirštų abėcėlės paveikslo, pateikiamo [Lietuvos kurčiųjų ir neprigirdinčiųjų ugdymo centro](http://www.deafcenter.lt/gestu-kalba/) svetainėje bei [Neįgaliųjų reikalų departamento](http://www.ndt.lt/) prie Socialinės apsaugos ir darbo ministerijos pateikiamo [Lietuvių gestų kalbos žodyno](http://lgkz.ndt.lt/pirstu-abecele) svetainėje, pagrindu. Šio paveikslo kopija padėta į aplanką `images`.
 
 Šis JPEG formato paveikslas pirmiausia buvo sukreivintas (tam pasinaudota [vectorization.org](https://www.vectorization.org/) paslauga, o jos darbo rezultatas taip pat guli aplanke `images`), tada programa [„Inkscape“](https://inkscape.org/) išskaidytas į atskirus failus po vieną simbolį. Gautieji failai [„IcoMoon“](https://icomoon.io/) paslaugos pagalba buvo sujungti į šriftą.
 
