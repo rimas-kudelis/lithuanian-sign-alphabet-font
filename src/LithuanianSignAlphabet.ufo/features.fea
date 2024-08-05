@@ -1,10 +1,10 @@
 
 #Mark attachment classes (defined in GDEF, used in lookupflags)
 
-@GDEF_Simple = [\glyph1 \uni0001 \space \A \B \C \D \E \F \G \H \I \J \K \L \M \N \O \P \R \S \T 
-	\U \V \Y \Z \Ccaron \Edotaccent \Eogonek \Iogonek \Scaron \Umacron \Uogonek \Zcaron 
-	\a \b \c \d \e \f \g \h \i \j \k \l \m \n \o \p \r \s \t \u \v \y \z \ccaron \edotaccent \eogonek 
-	\iogonek \scaron \umacron \uogonek \zcaron \Aogonek \aogonek ];
+@GDEF_Simple = [\A \Aogonek \B \C \Ccaron \D \E \Edotaccent \Eogonek \F \G \H \I \Iogonek 
+	\J \K \L \M \N \O \P \R \S \Scaron \T \U \Umacron \Uogonek \V \Y \Z \Zcaron \a \aogonek \b \c 
+	\ccaron \d \e \edotaccent \eogonek \f \g \h \i \iogonek \j \k \l \m \n \o \p \r \s \scaron 
+	\space \t \u \umacron \uogonek \v \y \z \zcaron ];
 
 table GDEF {
   GlyphClassDef @GDEF_Simple, , , ;

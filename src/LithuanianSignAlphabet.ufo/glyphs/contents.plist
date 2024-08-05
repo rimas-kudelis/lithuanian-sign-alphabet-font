@@ -2,8 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-  <key>.notdef</key>
-  <string>_notdef.glif</string>
   <key>A</key>
   <string>A_.glif</string>
   <key>Aogonek</key>
@@ -90,8 +88,6 @@
   <string>f.glif</string>
   <key>g</key>
   <string>g.glif</string>
-  <key>glyph1</key>
-  <string>glyph1.glif</string>
   <key>h</key>
   <string>h.glif</string>
   <key>i</key>
@@ -126,8 +122,6 @@
   <string>u.glif</string>
   <key>umacron</key>
   <string>umacron.glif</string>
-  <key>uni0001</key>
-  <string>uni0001.glif</string>
   <key>uogonek</key>
   <string>uogonek.glif</string>
   <key>v</key>

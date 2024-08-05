@@ -6,13 +6,11 @@
 
 Šriftas padarytas pirštų abėcėlės paveikslo, pateikiamo [Lietuvos kurčiųjų ir neprigirdinčiųjų ugdymo centro](http://www.deafcenter.lt/gestu-kalba/) svetainėje bei [Neįgaliųjų reikalų departamento](http://www.ndt.lt/) prie Socialinės apsaugos ir darbo ministerijos pateikiamo [Lietuvių gestų kalbos žodyno](http://lgkz.ndt.lt/pirstu-abecele) svetainėje, pagrindu. Šio paveikslo kopija padėta į aplanką `images`.
 
-Šis JPEG formato paveikslas pirmiausia buvo sukreivintas (tam pasinaudota [vectorization.org](https://www.vectorization.org/) paslauga, o jos darbo rezultatas taip pat guli aplanke `images`), tada programa [„Inkscape“](https://inkscape.org/) išskaidytas į atskirus failus po vieną simbolį. Gautieji failai [„IcoMoon“](https://icomoon.io/) paslaugos pagalba buvo sujungti į šriftą.
+Šis JPEG formato paveikslas pirmiausia buvo sukreivintas (tam pasinaudota [vectorization.org](https://www.vectorization.org/) paslauga, o jos darbo rezultatas taip pat guli aplanke `images`). Gautasis SVG failas [„GIMP“](https://www.gimp.org) programa vėl paverstas rastriniu vaizdu (tačiau didesniu), tada [„Glyphtracer“](https://github.com/jpakkane/glyphtracer) programa konvertuotas į [„FontForge“](https://fontforge.org/) projekto failą, tada dar pakoreguotas šioje programoje ir eksportuotas [UFO 3 formatu](https://unifiedfontobject.org/).
 
-Čia pateikiamas šriftas – tai dar šiek tiek patvarkyta ką tik minėtu būdu gauto šrifto versija. Jo redagavimui naudota [„FontForge“](https://fontforge.org/) programa, todėl būtent jos failas padėtas į aplanką `src`. Deja, kadangi eksportuojant šriftą į naudojimui tinkamą formatą, programa man lūždavo, tai galutiniam rezultatui (OTF ar kokiam kitam šrifto failui) gauti aš pasinaudojau dar viena internetine paslauga – [„Convertio“](https://convertio.co/). Kol nebus pašalintos šrifto problemos („FontForge“ jų aptinka gan nemažai), naudojimui tinkamus šriftus matyt teks generuoti būtent tokiu, aplinkiniu būdu.
+Ankstesnėje versijoje procesas buvo kitoks, tačiau jo rezultate keliasdešimties glifų šrifto failui prireikė virš 500KB vietos. Panašu, kad kontūrai buvo sukreivinti perdėm tiksliai – „FontForge“ net skundėsi dėl taškų kiekio. Dabar gaunamas išvesties failas gerokai mažesnis.
 
-2024 m. pridėjau ir iš (nebelūžtančios) „FontForge“ eksportuotą [UFO 3 formato](https://unifiedfontobject.org/) paketą. Nuo šiol šis formatas laikytinas pirminiu.
-
-Pirmoji šio šrifto versija „subelsta“ per pusdienį kaip eskizas išbandymui ir/arba pamatas galimiems tolimesniems darbams (*proof of concept*). Šiuo metu jam taikoma [OFL licencija](http://scripts.sil.org/OFL), tačiau noriu atkreipti dėmesį, jog pačių piešinių autorystė man nepriklauso, o gauti leidimą juos taip panaudoti aš irgi nebandžiau.
+Šį šriftą laikau eskizu pasižaidimams ir/arba pamatu galimiems tolimesniems darbams (*proof of concept*). Šiuo metu jam taikoma [OFL licencija](https://openfontlicense.org/), tačiau noriu atkreipti dėmesį, jog pačių piešinių autorystė man nepriklauso, o gauti leidimą juos šriftui naudoti aš irgi nebandžiau.
 
 ### Parsisiuntimas
 
@@ -22,15 +20,13 @@ Pirmoji šio šrifto versija „subelsta“ per pusdienį kaip eskizas išbandym
 
 Here you can find a Lithuanian Sign Alphabet font file.
 
-It was generated from the original reference file in JPEG format, which is available from the websites of the [Center for Education of Deaf and Hard of Hearing of Lithuania](http://www.deafcenter.lt/en/) and the [Departament for the Affairs of the Disabled under the Ministry of Social Security and Labour](http://www.ndt.lt/en/). A copy of the original JPEG image has been placed into the `images` folder of this repository together with its vectorized version.
+It was generated from the original reference file in JPEG format, which is available from the websites of the [Center for Education of Deaf and Hard of Hearing of Lithuania](http://www.deafcenter.lt/en/) and the [Departament for the Affairs of the Disabled under the Ministry of Social Security and Labour](http://www.ndt.lt/en/). A copy of the original JPEG image has been placed into the `images` folder of this repository along with its vectorized version.
 
-Conversion of the original JPEG file into font metrics was performed in multiple steps. Different applications and online services (vectorization.org, Inkscape, IcoMoon) were used in the process which resulted in a TTF file, which was then imported into FontForge and further improved. All of this was done in about half a day, so I tend to see the result as a proof of concept, not a finished product.
+Conversion from the original JPEG file was performed in multiple steps. Different applications and online services (vectorization.org, GIMP, Glyphtracer) were used to generate a FontForge SFD file, which was then further improved in FontForge itself. Initially, I used a different process, but it resulted in a huge TTF file, so I figured I'd try again. Either way, all of this was done in about half a day, so I tend to see the result as a proof of concept, not a finished product.
 
-FontForge SFD file is placed into the `src` folder. In 2024, I also exported a [UFO 3 package](https://unifiedfontobject.org/) from FontForge. UFO should be considered the "source form" of the font as of now, although, again, it's autogenerated.
+A [UFO 3 package](https://unifiedfontobject.org/) generated by FontForge is probably the closest you could get to a workable "source form" of the font. I distributed a FontFogge SFD file initially, but it appears UFO is the preferred way for distrivuting open-source fonts nowadays.
 
-The font is currently licensed under [OFL](http://scripts.sil.org/OFL) with a caveat that I don't own the original design and never applied for a permission to use it. Still, seeing it available on a governmental website, I doubt it would cause an issue.
-
-Note: FontForge initially failed to export the font (it just crashed along with my Gnome session instead), so I ended up using [Convertio](https://convertio.co/) to convert the SFD file into usable font formats.
+The font is currently licensed under [OFL](https://openfontlicense.org/) with a caveat that I don't own the original design and never applied for a permission to use it. Still, seeing it available on governmental websites, I doubt it would cause an issue.
 
 ### Download
 
