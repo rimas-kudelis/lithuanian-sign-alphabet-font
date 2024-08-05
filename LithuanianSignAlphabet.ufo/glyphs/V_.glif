@@ -2,6 +2,7 @@
 <glyph name="V" format="2">
   <advance width="682"/>
   <unicode hex="0056"/>
+  <unicode hex="0076"/>
   <outline>
     <contour>
       <point x="76" y="1257" type="curve" smooth="yes"/>

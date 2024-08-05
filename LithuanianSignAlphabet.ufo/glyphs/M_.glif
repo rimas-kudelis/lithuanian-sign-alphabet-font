@@ -2,6 +2,7 @@
 <glyph name="M" format="2">
   <advance width="1165"/>
   <unicode hex="004D"/>
+  <unicode hex="006D"/>
   <outline>
     <contour>
       <point x="467" y="1039" type="curve" smooth="yes"/>

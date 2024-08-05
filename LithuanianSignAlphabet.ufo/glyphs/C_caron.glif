@@ -2,6 +2,7 @@
 <glyph name="Ccaron" format="2">
   <advance width="979"/>
   <unicode hex="010C"/>
+  <unicode hex="010D"/>
   <outline>
     <contour>
       <point x="522" y="1300" type="curve" smooth="yes"/>
